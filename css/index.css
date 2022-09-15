@@ -126,6 +126,20 @@ p {
     margin-left: 50px;
 }
 
+.envelope {
+    fill: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.envelope:hover,
+.envelope:focus {
+    fill: var(--acent-color);
+}
+
+.envelope {
+    fill: currentColor;
+}
+
 .list1 .link {
     display: block;
     padding-top: 32px;
@@ -145,17 +159,43 @@ p {
     color: var(--acent-color);
 }
 
+.smartphone  {
+    fill: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.smartphone:hover,
+.smartphone:focus {
+    fill: var(--acent-color);
+}
+
+.smartphone {
+    fill: currentColor;
+}
+
 .phone {
     color: var(--secondary-color);
     font-weight: 500;
     font-size: var(--text-size);
     line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
 .phone:hover,
 .phone:focus {
     color: var(--acent-color);
+}
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../img/images/workingprocess.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-clip: border-box;
 }
 
 .section-1 {
@@ -205,6 +245,17 @@ p {
     width: 1200px;
     margin: auto;
     padding: 0 15px;
+}
+
+.container-btn-icon {
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 0;
+    border: none;
+    width: 270px;
+    height: 120px;
 }
 
 .list2 {
